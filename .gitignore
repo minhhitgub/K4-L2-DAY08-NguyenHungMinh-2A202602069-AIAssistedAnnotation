@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+runs/
+*.pt
+*.onnx
+day8_data.zip
+day8_round*_out.zip
+to_label/
+.agent/

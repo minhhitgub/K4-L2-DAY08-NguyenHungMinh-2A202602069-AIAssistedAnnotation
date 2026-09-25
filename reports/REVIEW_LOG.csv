@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0187.jpg,xe tối gần mép trái,added,Thấy thân xe và đủ ranh giới theo GUIDELINE_LABEL.md
+1,frame_0187.jpg,"Xe gần tâm ảnh, ở góc trái bên dưới biển giao thông màu vàng",edited,"Bounding box còn nhỏ, chưa bao quát được hết xe"
+1,frame_0227.jpg,Bounding box Phía trên xe tải,deleted,bounding box không xác định được là bao vào xe nào
+1,frame_0187.jpg,Xe di chuyển ở làn giữa nhìn rõ đèn và thân xe,accepted,Box AI nhận diện chính xác ôm sát thân xe (IoU >= 0.85) theo GUIDELINE_LABEL.md

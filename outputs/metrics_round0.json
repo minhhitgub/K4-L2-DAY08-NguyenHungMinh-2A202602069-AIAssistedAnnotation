@@ -1,0 +1,41 @@
+{
+  "round": 0,
+  "model": "yolov8n cold start (COCO car+bus+truck)",
+  "base_model": "yolov8n.pt",
+  "n_train_images": 0,
+  "n_train_boxes": 0,
+  "epochs": 0,
+  "imgsz": 960,
+  "strategies": [],
+  "test": {
+    "images": 20,
+    "ref_boxes": 403,
+    "ref_ignored_tiny": 14,
+    "ap50": 0.7714,
+    "conf_thr": 0.25,
+    "tp": 197,
+    "fp": 16,
+    "fn": 206,
+    "precision": 0.9249,
+    "recall": 0.4888,
+    "f1": 0.6396,
+    "recall_by_size": {
+      "small": {
+        "recall": 0.1818,
+        "ref_boxes": 66
+      },
+      "medium": {
+        "recall": 0.5473,
+        "ref_boxes": 296
+      },
+      "large": {
+        "recall": 0.561,
+        "ref_boxes": 41
+      }
+    }
+  },
+  "reference": "data/test/labels",
+  "runtime": "Tesla T4",
+  "student": "Nguyễn Hùng Minh",
+  "created": "2026-09-25T04:34:12"
+}
